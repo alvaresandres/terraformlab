@@ -4,7 +4,7 @@ pipeline {
     stages {
       stage('fetch_latest_code') {
         steps {
-          git credentialsId: '', url: 'https://github.com/alvaresandres/terraformlab.git'
+          git branch: 'main', credentialsId: '76fa3896-9e88-42c9-a8cf-072481da5c0f', url: 'https://github.com/alvaresandres/terraformlab.git'
         }
       }
 

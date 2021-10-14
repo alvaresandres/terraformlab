@@ -27,7 +27,6 @@ pipeline {
       stage('TF Apply') {
         steps {
             echo 'Hello-world-2'
-          //sh 'terraform apply -input=false'
         }
       }
     } 
